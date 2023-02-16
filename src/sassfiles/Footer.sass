@@ -1,0 +1,38 @@
+.Container
+    height: fit-content
+    overflow-y: auto
+    overflow-x: hidden
+    perspective: 10px
+    .parallaxcontainer
+        position: relative
+        height: 300px
+        display: flex
+        justify-content: center
+        align-items: center
+        // transform-style: preserve-3d+
+        z-index: -1
+        background-size: cover
+        background-position: 50% 0%
+        background-attachment: fixed
+        // background-origin: content-box
+        background-repeat: no-repeat
+        width: 100%
+        // img
+        //     width: 100%
+        ul
+            display: flex
+            list-style-type: none
+            color: white
+            position: absolute
+            width: 100%
+            justify-content: space-evenly
+
+            li
+                width: auto
+                .svg
+                    display: inline
+                    svg
+                        margin-left: 10px
+    .map
+        background-color: blanchedalmond
+        height: 300px

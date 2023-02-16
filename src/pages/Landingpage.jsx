@@ -10,6 +10,8 @@ import MyNavbar from '../components/Header';
 import Home from '../components/Home';
 import About from '../components/About';
 import Whatwedo from '../components/Whatwedo';
+import Footer from '../components/Footer';
+
 
 
 function Landingpage() {
@@ -24,7 +26,7 @@ function Landingpage() {
      <Imagegallery /> */}
      <Collabs />
      <Contacts />
-     {/* <Footer /> */}
+     <Footer />
     </>
   )
 }

@@ -6,16 +6,20 @@ import React from 'react'
 // import Imagegallery from '../components/Imagegallery';
 import Collabs from '../components/Collabs';
 import Contacts from '../components/Contacts';
-// import Footer from '../components/Footer';
-
+import MyNavbar from '../components/Header';
+import Home from '../components/Home';
+import About from '../components/About';
+import Whatwedo from '../components/Whatwedo';
 
 
 function Landingpage() {
   return (
     <>
-     {/* <Header/>
-     <Home />
-     <About />
+     {<><MyNavbar /><Home />
+     <About />  <Whatwedo />
+     </>
+
+     /*
      <Whatwedo />
      <Imagegallery /> */}
      <Collabs />

@@ -1,0 +1,19 @@
+.services-list{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+    padding-top:5%;
+    
+    
+  }
+
+  .services-container{
+    background-color: #bcc1c300;
+    color: black;
+    font-size: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
